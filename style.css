@@ -5,8 +5,11 @@
     margin-top: 20%;
 }
 
+.info {
+    /*background-color: white;*/
+}
+
 #displayText {
-    background-color: white;
     margin: auto;
-    width: fit-content;
+    /*width: fit-content;*/ 
 }
