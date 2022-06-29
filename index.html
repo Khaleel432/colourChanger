@@ -7,11 +7,19 @@
     </head>
     <body>
         <div class="center">
-            <div class="info">
-                <h1 id="displayText">Background Colour: placeholder</h1>
+            <div>
+                <h1 id="displayText">Click the button to change the background!</h1>
                 <button type="button" onclick="createBackground()">Change Colour</button>
-                <input type="checkbox" id="isGradient" name="isGradient" value="gradient">
                 <label for="isGradient">Gradient?</label>
+                <input type="checkbox" id="isGradient" name="isGradient" value="gradient" onclick="displayDropdown()">
+                <input hidden type="number" id="numOfColours" min="1" max="16">
+                <button type="button" onclick="clearBackground()">Clear</button>
+                <br>
+                <p hidden id="errorTag"></p>
+                <div>
+                    <div id="boxLeft"></div>
+                    <div id="boxRight"></div>
+                </div>
             </div>
         </div>
     </body>

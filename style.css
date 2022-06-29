@@ -5,11 +5,16 @@
     margin-top: 20%;
 }
 
-.info {
-    /*background-color: white;*/
+#boxLeft {
+    width: 300px;
+    height: 200px;
+    float: left;
+    border: 1px;
 }
 
-#displayText {
-    margin: auto;
-    /*width: fit-content;*/ 
+#boxRight {
+    margin-left: 620px;
+    width: 300px;
+    height: 200px;
+    border: 10px;
 }
